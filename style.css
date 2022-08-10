@@ -12,16 +12,26 @@ header {
     text-align: center;
 }
 
-.hi {
-    color: white;
-    text-align: center;
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 50px;
+.section1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
 }
 
 .info {
     display: flex;
-    justify-content: center;
+    justify-content: right;
+}
+
+.intro {
+    color: white;
+    text-align: right;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
+
+span {
+    color: orange;
 }
 
 .portrait {

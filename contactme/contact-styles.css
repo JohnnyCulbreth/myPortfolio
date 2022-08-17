@@ -1,0 +1,109 @@
+body {
+    background-image: url("../images/about-background.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+form {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top: 5vh;
+    max-width: 500px;
+    background: #F7F7F7;
+    opacity: 0.94;
+    padding: 25px 15px 25px 10px;
+    font: 12px Georgia, "Times New Roman", Times, serif;
+    color: #888;
+    text-shadow: 1px 1px 1px #FFF;
+    border:1px solid #E4E4E4;
+    border-radius: 15px;
+}
+
+h1 {
+    color: orange;
+    font-size: 50px;
+    margin-top: 40px;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin: 0px;
+}
+
+label>span {
+    float: left;
+    width: 20%;
+    text-align: right;
+    padding-right: 10px;
+    margin-top: 10px;
+    color: #888;
+}
+
+input[type="text"], input[type="email"], textarea, select {
+    border: 1px solid #DADADA;
+    color: #888;
+    height: 30px;
+    margin-bottom: 16px;
+    margin-right: 6px;
+    margin-top: 2px;
+    outline: 0 none;
+    padding: 3px 3px 3px 5px;
+    width: 70%;
+    font-size: 12px;
+    line-height:15px;
+    box-shadow: inset 0px 1px 4px #ECECEC;
+    -moz-box-shadow: inset 0px 1px 4px #ECECEC;
+    -webkit-box-shadow: inset 0px 1px 4px #ECECEC;
+}
+
+textarea {
+    padding: 5px 3px 3px 5px;
+}
+
+select {
+    background: #FFF url('down-arrow.png') no-repeat right;
+    background: #FFF url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+    width: 70%;
+    height: 35px;
+    line-height: 25px;
+}
+
+textarea {
+    height:100px;
+}
+
+.button {
+    background: orange;
+    border: none;
+    padding: 10px 45px 10px 45px;
+    color: #FFF;
+    box-shadow: 1px 1px 5px #B6B6B6;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: darkorange;
+}
+
+.contact-back {
+    display: block;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 1180px) {
+    
+}
+
+@media (max-width: 576px) {
+    form {
+        width: fit-content;
+    }
+}

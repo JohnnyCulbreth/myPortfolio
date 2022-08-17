@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contact-styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <title>Contact Page</title>
+</head>
+<body>
+    <h1>LET'S WORK TOGETHER!</h1>
+
+    <form action="https://formspree.io/f/xeqnyevr" method="post">
+        <label>
+            <span>Your Name :</span>
+            <input id="name" type="text" name="name" placeholder="Your Full Name" />
+        </label>
+        
+        <label>
+            <span>Your Email :</span>
+            <input id="email" type="email" name="email" placeholder="Your Email Address" />
+        </label>
+        
+        <label>
+            <span>Comments :</span>
+            <textarea id="message" name="message" placeholder="Your Message" minlength="20" maxlength="500"></textarea>
+        </label> 
+         <label>
+            <span>How did you hear about me?</span><select name="selection">
+            <option value="Classmate">Classmate</option>
+            <option value="Resume-Submission">Resume Submission</option>
+            <option value="LinkedIn">LinkedIn</option>
+            <option value="Coding-Academy-Rec">Coding Academy Rec</option>
+            <option value="Other">Other</option>
+            </select>
+        </label>    
+        
+        <div class="contact-back">
+        <p>Would you like to be contacted back?</p>
+            <input type="radio" id="yes" name="contact-back-yes" value="yes">Yes</input>
+            <input type="radio" id="no" name="contact-back-no" value="no">No</input>
+        </div>
+
+         <label>
+            <span>&nbsp;</span> 
+            <button class="button" type="submit">SEND</button> 
+        </label>    
+    </form>
+</body>
+</html>

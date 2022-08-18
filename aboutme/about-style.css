@@ -2,12 +2,6 @@ body {
     background-image: url("../images/about-background.jpeg");
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-}
-
 nav {
     display: flex;
     width: 80%;

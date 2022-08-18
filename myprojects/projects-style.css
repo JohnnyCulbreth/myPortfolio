@@ -34,3 +34,69 @@ nav ul li a:hover {
     height: 200px;
     width: 200px;
 }
+
+.center {
+    margin: auto;
+    width: 80%;
+    color: white;
+    padding: 10px;
+}
+
+.my-project {
+    width: auto;
+    height: auto;
+    border: 3px white solid;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 100%;
+    margin: 50px;
+}
+
+.project-image {
+    width: 400px;
+    height: auto;
+    margin: auto;
+    border-radius: 3px;
+}
+
+.content {
+    margin: 30px;
+    font-family: 'Fjalla One', sans-serif;
+}
+
+h1 {
+    font-size: 30px;
+    letter-spacing: 5px;
+    color: orange;
+}
+
+p {
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin: 30px 0px;
+}
+
+button {
+    background-color: orange;
+    color: black;
+    border: 2px solid transparent;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    transition: .4s;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+}

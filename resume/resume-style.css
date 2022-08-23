@@ -63,3 +63,39 @@ nav ul li a:hover {
     width: 25vw;
     height: auto;
 }
+
+
+
+@media (max-width: 576px) {
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    .qr-image {
+        width: 50vw;
+        height: auto;
+    }
+    
+    .linkedin-image {
+        width: 50vw;
+        height: auto;
+    }
+}
+
+@media (max-width: 1050px) {
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    .qr-image {
+        width: 50vw;
+        height: auto;
+    }
+    
+    .linkedin-image {
+        width: 50vw;
+        height: auto;
+    }
+}

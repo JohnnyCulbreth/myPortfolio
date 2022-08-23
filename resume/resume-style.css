@@ -41,3 +41,25 @@ nav ul li a:hover {
     height: 200px;
     width: 200px;
 }
+
+.index {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    font-family: 'Fjalla One', sans-serif;
+    color: white;
+    margin: 0 auto;
+    text-align: center;
+    width: 75%;
+    padding: 50px;
+}
+
+.qr-image {
+    width: 25vw;
+    height: auto;
+}
+
+.linkedin-image {
+    width: 25vw;
+    height: auto;
+}

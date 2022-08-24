@@ -111,7 +111,6 @@ button:hover {
 
 
 
-
 @media (max-width: 576px) {
     body {
         height: 100%;
@@ -140,5 +139,21 @@ button:hover {
     .content {
         width: 60vw;
         height: auto;
+    }
+}
+
+@media (max-width: 1148px) {
+    body {
+        height: 100%;
+        width: 100%;
+    }
+
+    .wrapper {
+        overflow: hidden;
+    }
+
+    .project-image {
+        width: 60vw;
+        margin-top: 20px;
     }
 }

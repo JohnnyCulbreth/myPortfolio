@@ -87,6 +87,12 @@ nav ul li a:hover {
         width: 50vw;
         height: auto;
     }
+
+    .click-here {
+        width: 40vw;
+        height: auto;
+        margin: 5px;
+    }
 }
 
 @media (max-width: 1050px) {
